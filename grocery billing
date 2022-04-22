@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+{
+    int m,n;
+    scanf("Enter the amount for grocery: %d",&m);
+    scanf("Money given: %d",&n);
+    printf("Total amount: %d",m);
+    printf("Balance to give: %d",n-m);
+    return 0;
+}
